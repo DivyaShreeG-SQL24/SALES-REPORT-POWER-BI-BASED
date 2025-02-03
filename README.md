@@ -1,14 +1,20 @@
 # SALES-REPORT-POWER-BI-BASED
 In this sales report,i have shown how was the sales in 2016-2019 of different product 
 
-dataset 
-
- SALES REPORT POWER BI BASED PROJECT
 
 DESCRIPTION 
 
+Sales of Beverages Table
 
-dataset
+This table contains data related to the sales of beverages. It includes key columns such as:
+
+Product Name: The name of the beverage product.
+Sales Date: The date on which the sale was made.
+Quantity Sold: The quantity of the product sold.
+Sales Amount: The total sales amount for the product.
+Region: The region where the sale was made.
+
+DATASET
 
 Sales (folder by year)
 Categories (Excel)
