@@ -45,18 +45,37 @@ Create the Data Model connecting all tables and using the Calendar table already
 
 Task 3.1. Calculate Total Revenue in Sales table, using the Product’s Retail Price, and multiplying it by the Units.
 
+       DAX:
+                 
+           Total Revenue = sales[Units]*RELATED('Product'[RetailPrice])
+
+
 Task 3.2. Calculate Total Cost in Sales table, using the Product’s Standard Cost, and multiplying it by the Units.
+
+        DAX;
+		
+	    Total cost = sales[Units]* RELATED('Product'[StandardCost])
 
 Task 3.3. Calculate Gross Profit in Sales: Total Revenue – Total Cost
 
+	 DAX:
+  
+	   Gross Profit = sales[Total Revenue]-sales[Total cost]
+
+
 Task 3.4. Calculate a Gross profit MoM growth Change% measure that could benefit us in decision making
+         
+            DAX:
+             
+                MOM = ([TOT REV]-[PRE MON])/[PRE MON]
 
-Task 3.5. Calculate a measure for AVG sales per day – this is the average sum of Total Revenue per day based on the Dates of actual Sales.	
 
-Task 3.6. Breakdown Analysis by Product (drop or increase)
+Task 3.5. Breakdown Analysis by Product (drop or increase)
           Calculate the following time measures:
           This is QBR Report. So QoQ Growth is required.
-
+           
+                  DAX:
+                       QOQ = ([TOT REV]-[PRE QTR])/[PRE QTR]
 
 DASHBOARD
 
