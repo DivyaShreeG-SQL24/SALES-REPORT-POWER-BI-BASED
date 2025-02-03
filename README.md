@@ -53,9 +53,7 @@ Task 3.3. Calculate Gross Profit in Sales: Total Revenue – Total Cost
 
 Task 3.4. Calculate a Gross profit MoM growth Change% measure that could benefit us in decision making
 
-Task 3.5. Calculate a measure for AVG sales per day – this is the average sum of Total Revenue per day based on the Dates of actual Sales.	
-
-Task 3.6. Breakdown Analysis by Product (drop or increase)
+Task 3.5. Breakdown Analysis by Product (drop or increase)
           Calculate the following time measures:
           This is QBR Report. So QoQ Growth is required.
 
