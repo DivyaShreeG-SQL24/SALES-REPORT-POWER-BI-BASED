@@ -16,12 +16,12 @@ Region: The region where the sale was made.
 
 DATASET
 
-Sales (folder by year)
-Categories (Excel)
-Geography (Excel)
-Product (CSV / Database)
-SalesRep (Excel)
-SubCategories (Excel)
+Sales (folder by year),
+Categories (Excel),
+Geography (Excel),
+Product (CSV / Database),
+SalesRep (Excel),
+SubCategories (Excel).
 
 QUESTION
 
